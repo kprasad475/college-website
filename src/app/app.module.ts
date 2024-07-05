@@ -10,6 +10,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { ContactComponent } from './contact/contact.component';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,7 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,RouterModule
   ],
   providers: [
     provideClientHydration()
